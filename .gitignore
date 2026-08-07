@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python(本 skill 为纯 md,预防性保留)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 凭证 / 配置(绝不进开源)
+.env
+.env.*
+.mcp.json
+
+# 运行时产物:真实测试报告不进开源,用户运行 skill 后自行生成
+output/
+reports/
+logs/
+
+# 临时文件
+*.log
+*.tmp
+*.swp
