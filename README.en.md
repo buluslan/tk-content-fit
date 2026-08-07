@@ -97,25 +97,25 @@ The agent will ask follow-ups (target market / competitors / known TK info), or 
 | **Amazon** | SellerSprite: Listing details + sales/BSR forecast + competitors + reviews (UGC clustering) | Listing URL / title+bullets / screenshot (**required input**) + your own data |
 | **TikTok** | KOLSprite: products / videos / creators / shops / captions | TK similar links + your own captions |
 
-> The Amazon Listing is the skill's **primary input**, required whether or not MCP is connected. To configure MCP: buy a plan on KOLSprite / SellerSprite, get the secret-key, and write it into Claude Code's `.mcp.json` (params / fields / billing rules in [`references/mcp-reference.md`](references/mcp-reference.md)).
+> The Amazon Listing is the skill's **primary input** — you can use other ERP data sources, or your agent's built-in web access / browser automation to fetch the Listing content.
 
 ## 🎁 Sign-up Perks
 
-Use these creator-exclusive discount codes when subscribing to the two MCP data sources (paste the code in the "coupon" field at checkout):
+Use these buluslan (WeChat OA: 新西楼.AI) exclusive discount codes when subscribing to the two MCP data sources (paste the code in the "coupon" field at checkout):
 
 | Tool | Code | Discount | Link |
 |------|------|----------|------|
-| SellerSprite · Membership | `XXL90` (monthly) / `XXL72` (individual annual) / `XXL78` (standard/advanced/VIP annual) | See site per plan | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
 | SellerSprite · MCP | `XXL` | 10% off | [open.sellersprite.com/pricing/mcp](https://open.sellersprite.com/pricing/mcp) |
 | KOLSprite · Membership + MCP | `XXL` | 10% off | [kolsprite.com/price](https://www.kolsprite.com/price) |
+| SellerSprite · Membership | `XXL90` (monthly) / `XXL72` (individual annual) / `XXL78` (standard/advanced/VIP annual) | See site per plan | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
 
 > KOLSprite also offers a **7-day free trial**: [kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
 
 <div align="center">
 <table>
   <tr>
-    <td><img src="assets/ss_price.png" alt="SellerSprite discount" width="280"></td>
-    <td><img src="assets/kol_price.png" alt="KOLSprite discount" width="280"></td>
+    <td><img src="https://github.com/user-attachments/assets/c46f6725-4ebd-49a0-a6be-a4fc910465be" alt="SellerSprite discount" width="280"></td>
+    <td><img src="https://github.com/user-attachments/assets/f691e661-315c-439b-bff1-3d38ae223c66" alt="KOLSprite discount" width="280"></td>
   </tr>
   <tr>
     <td align="center"><b>SellerSprite</b></td>
@@ -124,7 +124,19 @@ Use these creator-exclusive discount codes when subscribing to the two MCP data 
 </table>
 </div>
 
-> 🎯 These are exclusive perks from the **MBG 跨境AI实战圈** community — cross-border practitioners welcome. **Community intro: [mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+## 🏠 Community
+
+<div align="center">
+
+🎯 **More AI playbooks and exclusive perks in our "MBG 跨境AI实战圈" — 50+ cross-border top sellers and AI experts already inside.**
+
+—— Cross-border practitioners welcome. Let's explore the best practices and real boundaries of AI + business together, take cross-border AI from 0 to 1, outpace your peers, and outgrow your boss.
+
+**Community intro: [mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+
+<img width="1125" height="618" alt="image" src="https://github.com/user-attachments/assets/20f47cd6-e33c-4f3e-9362-3846c11135fd" />
+
+</div>
 
 ## 📁 Structure
 
@@ -134,9 +146,7 @@ tk-content-fit/
 ├── LICENSE                       # MIT
 ├── README.md                     # Chinese readme
 ├── assets/
-│   ├── banner.png                # README banner
-│   ├── ss_price.png              # SellerSprite discount
-│   └── kol_price.png             # KOLSprite discount
+│   └── banner.png                # README banner
 └── references/
     ├── listing-frontload.md      # Steps 0-2: pre-screen / demand anchoring / translation
     ├── tk-validation.md          # Steps 3-4: 3-layer validation + verdict

@@ -97,25 +97,25 @@ Agent 会反问补全(目标市场 / 竞品 / 已知 TK 情况),或你照 SKILL.
 | **亚马逊侧** | 卖家精灵:Listing 详情 + 销量/BSR 预测 + 竞品 + 评论(UGC 聚类) | Listing 链接/标题+五点/截图(**必给输入**)+ 自带数据 |
 | **TK 侧** | 达人精灵:商品/视频/达人/店铺/字幕 | TK 同类链接 + 自贴字幕 |
 
-> 亚马逊 Listing 是 skill 的**主输入**,无论是否接入 MCP 都要给。配置 MCP:在达人精灵/卖家精灵官网购买套餐、获取 secret-key 写入 Claude Code 的 `.mcp.json`(入参/字段/计费规则见 [`references/mcp-reference.md`](references/mcp-reference.md))。
+> 亚马逊 Listing 是 skill 的**主输入**,你可以使用其他ERP的数据源,或者使用你 Agent 内置的联网功能、浏览器自动化来获取 Listing 内容。
 
 ## 🎁 接入福利
 
-接入这两个 MCP 数据源时,用以下博主专属优惠码享折扣(下单时在「折扣券」处粘贴对应码):
+接入这两个 MCP 数据源时,用以下 buluslan(公众号:新西楼.AI)专属优惠码享折扣(下单时在「折扣券」处粘贴对应码):
 
 | 工具 | 优惠码 | 折扣 | 购买链接 |
 |------|--------|------|----------|
-| 卖家精灵 · 会员 | `XXL90`(包月) / `XXL72`(单人包年) / `XXL78`(标准/高级/VIP 包年) | 见官网对应套餐 | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
 | 卖家精灵 · MCP | `XXL` | 9 折 | [open.sellersprite.com/pricing/mcp](https://open.sellersprite.com/pricing/mcp) |
 | 达人精灵 · 会员 + MCP | `XXL` | 9 折 | [kolsprite.com/price](https://www.kolsprite.com/price) |
+| 卖家精灵 · 会员 | `XXL90`(包月) / `XXL72`(单人包年) / `XXL78`(标准/高级/VIP 包年) | 见官网对应套餐 | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
 
 > 达人精灵还有 **7 天免费试用**:[kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
 
 <div align="center">
 <table>
   <tr>
-    <td><img src="assets/ss_price.png" alt="卖家精灵优惠" width="280"></td>
-    <td><img src="assets/kol_price.png" alt="达人精灵优惠" width="280"></td>
+    <td><img src="https://github.com/user-attachments/assets/c46f6725-4ebd-49a0-a6be-a4fc910465be" alt="卖家精灵优惠" width="280"></td>
+    <td><img src="https://github.com/user-attachments/assets/f691e661-315c-439b-bff1-3d38ae223c66" alt="达人精灵优惠" width="280"></td>
   </tr>
   <tr>
     <td align="center"><b>卖家精灵</b></td>
@@ -124,7 +124,19 @@ Agent 会反问补全(目标市场 / 竞品 / 已知 TK 情况),或你照 SKILL.
 </table>
 </div>
 
-> 🎯 以上是「**MBG 跨境AI实战圈**」社群专属福利 —— 欢迎跨境电商从业者加入,一起探索 AI+商业的最佳实践和真实边界。**社区介绍:[mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+## 🏠 交流社区
+
+<div align="center">
+
+🎯 **更多 AI 实战教程和专属福利尽在我们「MBG 跨境AI实战圈」,已有 50+ 跨境大卖、AI 专家热聊中**
+
+—— 欢迎跨境电商从业者加入我们,一起探索 AI+商业的最佳实践和真实边界,跑通【跨境AI】的从 0 到 1,打败你的同事,干掉你的老板。
+
+**社区介绍:[mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+
+<img width="1125" height="618" alt="image" src="https://github.com/user-attachments/assets/20f47cd6-e33c-4f3e-9362-3846c11135fd" />
+
+</div>
 
 ## 📁 结构
 
@@ -134,9 +146,7 @@ tk-content-fit/
 ├── LICENSE                       # MIT
 ├── README.md                     # 本文件
 ├── assets/
-│   ├── banner.png                # README 横幅
-│   ├── ss_price.png              # 卖家精灵优惠
-│   └── kol_price.png             # 达人精灵优惠
+│   └── banner.png                # README 横幅
 └── references/
     ├── listing-frontload.md      # 第 0-2 步:预筛/需求锚定/翻译
     ├── tk-validation.md          # 第 3-4 步:三层验证 + 判断定调
