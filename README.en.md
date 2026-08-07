@@ -99,6 +99,26 @@ The agent will ask follow-ups (target market / competitors / known TK info), or 
 
 > The Amazon Listing is the skill's **primary input**, required whether or not MCP is connected. To configure MCP: buy a plan on KOLSprite / SellerSprite, get the secret-key, and write it into Claude Code's `.mcp.json` (params / fields / billing rules in [`references/mcp-reference.md`](references/mcp-reference.md)).
 
+## 🎁 Sign-up Perks
+
+Use these creator-exclusive discount codes when subscribing to the two MCP data sources (paste the code in the "coupon" field at checkout):
+
+| Tool | Code | Discount | Link |
+|------|------|----------|------|
+| SellerSprite · Membership | `XXL90` (monthly) / `XXL72` (individual annual) / `XXL78` (standard/advanced/VIP annual) | See site per plan | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
+| SellerSprite · MCP | `XXL` | 10% off | [open.sellersprite.com/pricing/mcp](https://open.sellersprite.com/pricing/mcp) |
+| KOLSprite · Membership + MCP | `XXL` | 10% off | [kolsprite.com/price](https://www.kolsprite.com/price) |
+
+> KOLSprite also offers a **7-day free trial**: [kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
+
+<div align="center">
+
+<img src="assets/ss_price.png" width="280" alt="SellerSprite discount"> <img src="assets/kol_price.png" width="280" alt="KOLSprite discount">
+
+</div>
+
+> 🎯 These are exclusive perks from the **MBG 跨境AI实战圈** community — cross-border practitioners welcome. **Community intro: [mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+
 ## 📁 Structure
 
 ```
@@ -107,7 +127,9 @@ tk-content-fit/
 ├── LICENSE                       # MIT
 ├── README.md                     # Chinese readme
 ├── assets/
-│   └── banner.png                # README banner
+│   ├── banner.png                # README banner
+│   ├── ss_price.png              # SellerSprite discount
+│   └── kol_price.png             # KOLSprite discount
 └── references/
     ├── listing-frontload.md      # Steps 0-2: pre-screen / demand anchoring / translation
     ├── tk-validation.md          # Steps 3-4: 3-layer validation + verdict
@@ -122,12 +144,6 @@ tk-content-fit/
 ## 📖 One more thing
 
 <div align="center">
-
-**Cross-border e-commerce practitioners are welcome to join our "MBG 跨境AI实战圈" community — let's explore the best practices and real boundaries of AI + business together.**
-
-**Community: https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q**
-
-<img src="https://github.com/user-attachments/assets/cb265b81-11e7-40a1-8188-d802ee5f83f1" width="500" alt="MBG community">
 
 **If this tool helped you, a ⭐ Star means a lot. For more AI × cross-border e-commerce playbooks, follow the WeChat Official Account 「新西楼.AI」.**
 

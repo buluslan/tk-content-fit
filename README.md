@@ -99,6 +99,26 @@ Agent 会反问补全(目标市场 / 竞品 / 已知 TK 情况),或你照 SKILL.
 
 > 亚马逊 Listing 是 skill 的**主输入**,无论是否接入 MCP 都要给。配置 MCP:在达人精灵/卖家精灵官网购买套餐、获取 secret-key 写入 Claude Code 的 `.mcp.json`(入参/字段/计费规则见 [`references/mcp-reference.md`](references/mcp-reference.md))。
 
+## 🎁 接入福利
+
+接入这两个 MCP 数据源时,用以下博主专属优惠码享折扣(下单时在「折扣券」处粘贴对应码):
+
+| 工具 | 优惠码 | 折扣 | 购买链接 |
+|------|--------|------|----------|
+| 卖家精灵 · 会员 | `XXL90`(包月) / `XXL72`(单人包年) / `XXL78`(标准/高级/VIP 包年) | 见官网对应套餐 | [sellersprite.com/cn/price](https://www.sellersprite.com/cn/price) |
+| 卖家精灵 · MCP | `XXL` | 9 折 | [open.sellersprite.com/pricing/mcp](https://open.sellersprite.com/pricing/mcp) |
+| 达人精灵 · 会员 + MCP | `XXL` | 9 折 | [kolsprite.com/price](https://www.kolsprite.com/price) |
+
+> 达人精灵还有 **7 天免费试用**:[kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
+
+<div align="center">
+
+<img src="assets/ss_price.png" width="280" alt="卖家精灵优惠"> <img src="assets/kol_price.png" width="280" alt="达人精灵优惠">
+
+</div>
+
+> 🎯 以上是「**MBG 跨境AI实战圈**」社群专属福利 —— 欢迎跨境电商从业者加入,一起探索 AI+商业的最佳实践和真实边界。**社区介绍:[mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+
 ## 📁 结构
 
 ```
@@ -107,7 +127,9 @@ tk-content-fit/
 ├── LICENSE                       # MIT
 ├── README.md                     # 本文件
 ├── assets/
-│   └── banner.png                # README 横幅
+│   ├── banner.png                # README 横幅
+│   ├── ss_price.png              # 卖家精灵优惠
+│   └── kol_price.png             # 达人精灵优惠
 └── references/
     ├── listing-frontload.md      # 第 0-2 步:预筛/需求锚定/翻译
     ├── tk-validation.md          # 第 3-4 步:三层验证 + 判断定调
@@ -122,12 +144,6 @@ tk-content-fit/
 ## 📖 写在最后
 
 <div align="center">
-
-**欢迎跨境电商从业者来我们「MBG 跨境AI实战圈」玩耍,一起探索 AI+商业的最佳实践和真实边界。**
-
-**社区介绍:https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q**
-
-<img src="https://github.com/user-attachments/assets/cb265b81-11e7-40a1-8188-d802ee5f83f1" width="500" alt="MBG 社群">
 
 **如果这个工具帮到了你,欢迎 ⭐ Star 支持。更多 AI × 跨境电商实操内容,关注公众号「新西楼.AI」。**
 
