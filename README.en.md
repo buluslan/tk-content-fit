@@ -112,9 +112,16 @@ Use these creator-exclusive discount codes when subscribing to the two MCP data 
 > KOLSprite also offers a **7-day free trial**: [kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
 
 <div align="center">
-
-<img src="assets/ss_price.png" width="280" alt="SellerSprite discount"> <img src="assets/kol_price.png" width="280" alt="KOLSprite discount">
-
+<table>
+  <tr>
+    <td><img src="assets/ss_price.png" alt="SellerSprite discount" width="280"></td>
+    <td><img src="assets/kol_price.png" alt="KOLSprite discount" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>SellerSprite</b></td>
+    <td align="center"><b>KOLSprite</b></td>
+  </tr>
+</table>
 </div>
 
 > 🎯 These are exclusive perks from the **MBG 跨境AI实战圈** community — cross-border practitioners welcome. **Community intro: [mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**

@@ -112,9 +112,16 @@ Agent 会反问补全(目标市场 / 竞品 / 已知 TK 情况),或你照 SKILL.
 > 达人精灵还有 **7 天免费试用**:[kolsprite.com/?utm_source=XXL](https://www.kolsprite.com/?utm_source=XXL)
 
 <div align="center">
-
-<img src="assets/ss_price.png" width="280" alt="卖家精灵优惠"> <img src="assets/kol_price.png" width="280" alt="达人精灵优惠">
-
+<table>
+  <tr>
+    <td><img src="assets/ss_price.png" alt="卖家精灵优惠" width="280"></td>
+    <td><img src="assets/kol_price.png" alt="达人精灵优惠" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>卖家精灵</b></td>
+    <td align="center"><b>达人精灵</b></td>
+  </tr>
+</table>
 </div>
 
 > 🎯 以上是「**MBG 跨境AI实战圈**」社群专属福利 —— 欢迎跨境电商从业者加入,一起探索 AI+商业的最佳实践和真实边界。**社区介绍:[mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
