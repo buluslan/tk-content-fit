@@ -14,7 +14,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-SKILL-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
-[![Version](https://img.shields.io/badge/version-0.4.0-black.svg)]()
+[![Version](https://img.shields.io/badge/version-0.5.1-black.svg)]()
 
 **零依赖 · 四维验证 · 分层决策 · 用户掌舵**
 

@@ -14,7 +14,7 @@ English | [简体中文](README.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-SKILL-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
-[![Version](https://img.shields.io/badge/version-0.4.0-black.svg)]()
+[![Version](https://img.shields.io/badge/version-0.5.1-black.svg)]()
 
 **Zero-Dependency · 4-Dimension Validation · Layered Decisions · User at the Wheel**
 
