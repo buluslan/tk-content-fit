@@ -45,7 +45,7 @@
 | 达人画像 | 内容参考组 + 首轮合作组(硬约束:只列有联系方式的) |
 | 最小测试计划 | 按机会类型自适应配比(角度×达人×周期 + 放大/停止判据) |
 
-**6 步流程**:预筛 → 需求锚定 → 翻译 → 三层验证 → 判断定调 → 方案定制
+**6 步流程**:预筛 → 需求锚定 → **🚪确认门** → 翻译 → 三层验证 → 判断定调 → 方案定制(三层文件落盘)
 
 ## 🚫 它不做什么
 
@@ -83,10 +83,11 @@ Agent 会反问补全(目标市场 / 竞品 / 已知 TK 情况),或你照 SKILL.
 |----|--------|---------|
 | 0 预筛 | 品类属性 + 可拍性初判 | [`references/listing-frontload.md`](references/listing-frontload.md) §0 |
 | 1 需求锚定 | Listing → 商品理解卡 | 同上 §1 |
+| **🚪 确认门** | 呈现商品理解卡 + 目标市场,等你确认才烧 TK 额度(硬门) | 同上 §1.5 |
 | 2 翻译 | 亚马逊词 → TK 本地化搜索词(含召回校验) | 同上 §2 |
 | 3 三层验证 | L1 存在 → L2 竞争达人 → L3 脚本(可选) | [`references/tk-validation.md`](references/tk-validation.md) |
 | 4 判断定调 | 四维判读 + 档位 + 机会类型 | 同上 §4 |
-| 5 方案定制 | 内容方向 + 达人画像 + 测试计划 | [`references/output-blueprint.md`](references/output-blueprint.md) |
+| 5 方案定制 + 落盘 | 结论层三件套(内容方向+达人+测试计划+调用消耗)+ 分析层 + 事实层 xlsx | [`references/output-blueprint.md`](references/output-blueprint.md) |
 
 ## 数据源
 
@@ -148,9 +149,9 @@ tk-content-fit/
 ├── assets/
 │   └── banner.png                # README 横幅
 └── references/
-    ├── listing-frontload.md      # 第 0-2 步:预筛/需求锚定/翻译
+    ├── listing-frontload.md      # 第 0-2 步:预筛/需求锚定/🚪确认门/翻译
     ├── tk-validation.md          # 第 3-4 步:三层验证 + 判断定调
-    ├── output-blueprint.md       # 第 5 步:方案三件套
+    ├── output-blueprint.md       # 第 5 步:方案三件套 + 三层落盘
     └── mcp-reference.md          # MCP 工具调用手册(配了 MCP 才读)
 ```
 

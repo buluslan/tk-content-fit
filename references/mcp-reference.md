@@ -62,7 +62,7 @@ TK 侧商品 / 视频 / 达人 / 店铺 / 字幕全走这一套。分两个 serv
 > ```
 > jq '[.data.list[] | {uniqueId,name,fansCnt,interactionRate,salesVolume,mailAddress,contactCnt:(.contactList|length),goodsCategory:[.goodsCategory[]?.catName]}]' raw.json
 > ```
-> - 核心字段(判断 + 两组雏形够用):`uniqueId`(handle) `name` `fansCnt` `interactionRate` `salesVolume`(带货销量) `mailAddress`(邮箱=可联系) `contactList`(取 length 判有无) `goodsCategory[].catName`(垂直度二次过滤用)。
+> - 核心字段(判断 + 两组雏形够用):`uniqueId`(handle) `name` `fansCnt` `interactionRate` `avgViewsPerVideo`(平均播放) `videoCnt`(带货视频数) `salesVolume`(带货销量) `gpm`(每千次播放销售额) `mailAddress`(邮箱=可联系) `contactList`(取 length 判有无) `goodsCategory[].catName`(垂直度二次过滤用)。**平均播放·带货销量·带货视频数进结论层达人画像**(判断达人质量,见 [`output-blueprint.md`](output-blueprint.md) §5 ②);`avgLikeCnt`/`fansGr`/`productCnt` 为辅证,按需取。
 > - `goodsCategory` 可能为 null → jq 里用 `?` 容错(上面的 `.goodsCategory[]?.catName`)。
 >
 > ⚠️ **召回 `keyword` 影响弱 → 召回后必须 `goodsCategory[]` 二次过滤**:`keyword` 对召回排序影响弱,召回常按全局带货销量排序、未必贴品类;`category_list` 传中文值不识别(返回 0)。**正解**:召回后按 `goodsCategory[]` 的 `catName`/`cnCatName` 含品类关键词过滤(粉底 → `Foundation`/`粉底`);跨品类 catId 不同,从 raw 召回现场读。过滤后目标达人不足 5 则 `page_num++` 翻页;翻 3 页仍不够或 `goodsCategory` 全空(冷门品类)→ 回退 raw 召回,声明「达人侧未品类验证,L2 结论降权」。完整步骤见 [`tk-validation.md`](tk-validation.md) §3 L2。
@@ -130,3 +130,4 @@ TK 侧商品 / 视频 / 达人 / 店铺 / 字幕全走这一套。分两个 serv
 | creator 召回后 goodsCategory 二次过滤 + 两组雏形 | [`tk-validation.md`](tk-validation.md) §3 L2 |
 | caption 连续失败的两档降级(自贴字幕→脚本级 / video 字段归纳→方向级) | [`tk-validation.md`](tk-validation.md) §3 L3 |
 | 数据规范(口径/时间窗/未验证标注,8 条) | SKILL.md「通用规则 · 数据规范」 |
+| 事实层 xlsx 字段清单(各 mcp 返回字段 → 哪个 sheet) | [`output-blueprint.md`](output-blueprint.md) ③ 事实层 |

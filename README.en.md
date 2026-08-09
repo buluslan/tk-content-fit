@@ -45,7 +45,7 @@ Turns "is this Amazon hit worth taking to TikTok?" into an actionable 4-dimensio
 | Creator profile | Reference group + first-round collaboration group (hard constraint: only list creators with contact info) |
 | Minimum test plan | Auto-proportioned by opportunity type (angle × creator × cycle + scale-up / stop criteria) |
 
-**6-step flow**: Pre-screen → Demand anchoring → Translation → 3-layer validation → Verdict & typing → Plan customization
+**6-step flow**: Pre-screen → Demand anchoring → **🚪 Confirm gate** → Translation → 3-layer validation → Verdict & typing → Plan customization (3-tier file output)
 
 ## 🚫 What it does NOT do
 
@@ -83,10 +83,11 @@ The agent will ask follow-ups (target market / competitors / known TK info), or 
 |------|------|---------|
 | 0 Pre-screen | Category traits + shootability first-pass | [`references/listing-frontload.md`](references/listing-frontload.md) §0 |
 | 1 Demand anchoring | Listing → product understanding card | same §1 |
+| **🚪 Confirm gate** | Show product card + target market; waits for your confirm before spending TK quota (hard gate) | same §1.5 |
 | 2 Translation | Amazon keywords → TK localized search terms (with recall check) | same §2 |
 | 3 3-layer validation | L1 existence → L2 competition & creators → L3 script (optional) | [`references/tk-validation.md`](references/tk-validation.md) |
 | 4 Verdict & typing | 4-dimension read + tier + opportunity type | same §4 |
-| 5 Plan customization | Content direction + creator profile + test plan | [`references/output-blueprint.md`](references/output-blueprint.md) |
+| 5 Plan customization + dump | Conclusion tier (content + creators + test plan + call cost) + analysis tier + fact-tier xlsx | [`references/output-blueprint.md`](references/output-blueprint.md) |
 
 ## Data sources
 
@@ -148,9 +149,9 @@ tk-content-fit/
 ├── assets/
 │   └── banner.png                # README banner
 └── references/
-    ├── listing-frontload.md      # Steps 0-2: pre-screen / demand anchoring / translation
+    ├── listing-frontload.md      # Steps 0-2: pre-screen / demand anchoring / 🚪confirm gate / translation
     ├── tk-validation.md          # Steps 3-4: 3-layer validation + verdict
-    ├── output-blueprint.md       # Step 5: the three deliverables
+    ├── output-blueprint.md       # Step 5: the three deliverables + 3-tier dump
     └── mcp-reference.md          # MCP tool call manual (read only if MCP is configured)
 ```
 
