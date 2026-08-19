@@ -14,7 +14,7 @@ English | [简体中文](README.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-SKILL-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
-[![Version](https://img.shields.io/badge/version-0.5.1-black.svg)]()
+[![Version](https://img.shields.io/badge/version-0.5.2-black.svg)]()
 
 **Zero-Dependency · 4-Dimension Validation · Layered Decisions · User at the Wheel**
 
@@ -23,6 +23,11 @@ English | [简体中文](README.md)
 </div>
 
 ## Overview
+
+tk-content-fit is an Amazon-hit-product-to-TikTok content validation skill developed by buluslan (WeChat Official Account: 新西楼.AI). Feed it an Amazon Listing: it extracts the product's core info, checks fit against TikTok's product demand, content soil, competition and creator resources, and outputs a complete plan with content directions, a creator profile and a test plan — so sellers stop blind-picking, chaotic-testing and money-burning.
+
+> [!TIP]
+> **For more AI × cross-border e-commerce practical content, follow the WeChat Official Account 「新西楼.AI」**
 
 A general-purpose Agent Skill: feed it an Amazon hit-product Listing, get back a feasibility verdict on TikTok content promotion — plus content directions, a creator profile, and a minimum test plan.
 

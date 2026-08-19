@@ -14,7 +14,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-SKILL-blueviolet.svg)](https://docs.anthropic.com/en/docs/claude-code)
-[![Version](https://img.shields.io/badge/version-0.5.1-black.svg)]()
+[![Version](https://img.shields.io/badge/version-0.5.2-black.svg)]()
 
 **零依赖 · 四维验证 · 分层决策 · 用户掌舵**
 
@@ -23,6 +23,11 @@
 </div>
 
 ## 项目简介
+
+tk-content-fit 是由 buluslan（公众号：新西楼.AI）研发的亚马逊爆品转TikTok内容验证Skill，你输入一个亚马逊Listing，他会提取商品核心信息，基于TK上的商品需求、内容土壤、竞争格局、达人资源做契合度分析，输出一套带内容方向、达人画像、测试计划的完整方案。彻底帮卖家告别盲选品、乱测品、白烧钱！
+
+> [!TIP]
+> **更多跨境电商 AI 实战内容，请关注公众号「新西楼.AI」**
 
 一个 **Agent 通用**的 Skill:输入一个亚马逊爆品 Listing,输出 TikTok 内容推广的可行性判断 + 内容方向 + 达人画像 + 最小测试计划。
 
