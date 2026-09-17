@@ -138,7 +138,7 @@ Use these buluslan (WeChat OA: 新西楼.AI) exclusive discount codes when subsc
 
 —— Cross-border practitioners welcome. Let's explore the best practices and real boundaries of AI + business together, take cross-border AI from 0 to 1, outpace your peers, and outgrow your boss.
 
-**Community intro: [mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q](https://mp.weixin.qq.com/s/dOz4fLmRnaFR7sD_TQm00Q)**
+**Community intro: [my.feishu.cn/wiki/WNi0wh3mIiOLhzkCLFPcwUr9nrg](https://my.feishu.cn/wiki/WNi0wh3mIiOLhzkCLFPcwUr9nrg)**
 
 <img width="1125" height="618" alt="image" src="https://github.com/user-attachments/assets/20f47cd6-e33c-4f3e-9362-3846c11135fd" />
 
